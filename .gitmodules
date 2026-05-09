@@ -1,0 +1,6 @@
+[submodule "pegasus"]
+	path = pegasus
+	url = https://gitee.com/HiSpark/pegasus.git
+[submodule "hi3403-docs"]
+	path = hi3403-docs
+	url = https://github.com/GitBubble/hi3403-docs.git

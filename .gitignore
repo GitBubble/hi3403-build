@@ -1,0 +1,55 @@
+# --- build / runtime artifacts ---
+output/
+downloads/
+logs/
+*.log
+.build-state/
+
+# --- rootfs staging (huge, generated) ---
+output/rootfs/
+output/boot/
+output/mpp/
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env/
+.pytest_cache/
+
+# --- node ---
+node_modules/
+
+# --- editors / OS ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# --- docker ---
+.dockerignore.local
+
+# --- temp / backup ---
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# --- archives that are downloaded, not source ---
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.zip
+*.tgz
+*.7z
+
+# --- misc test outputs ---
+/test_output/
+/_strict_test/
